@@ -37,7 +37,7 @@ div.race {
 }
 
 div.race.ongoing {
-  background-color: #8BC34A;
+  border-bottom: 2px solid #8BC34A;
 }
 
 div.race.complete {
