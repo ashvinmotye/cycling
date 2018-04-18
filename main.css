@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1,
+div,
+p {
+  font-family: 'Encode Sans', sans-serif;
+  color: #4a4a4a;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+div.race {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+div.race.ongoing {
+  background-color: #8BC34A;
+}
+
+div.race.complete {
+  background-color: #ffd54f;
+}
+
+.race-item {
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+  padding: 0 5px;
+}
+
+.race-name {
+  width: 50%;
+  padding: 0;
+}
+
+.race-date {
+  width: 20%;
+}
+
+.race-countdown {
+  width: 30%;
+}
