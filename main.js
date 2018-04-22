@@ -1,6 +1,24 @@
 var content = document.querySelector('#content');
+var toggleCompleted = document.querySelector('#toggle-complete');
 
 window.onload = populate();
+
+toggleCompleted.addEventListener('change', function(){
+  var allCompleted = document.querySelectorAll('.race.complete');
+
+  if(this.checked) {
+    for(var i=0; i<allCompleted.length; i++) {
+      allCompleted[i].style.display = 'block';
+    }
+  }
+
+  else {
+    for(var j=0; j<allCompleted.length; j++) {
+      allCompleted[j].style.display = 'none';
+    }
+  }
+
+});
 
 function populate() {
   for(var i=0; i<allRaces.length; i++) {
