@@ -25,7 +25,17 @@ p {
 h1 {
   text-align: center;
   font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+div.toggle {
   margin-bottom: 20px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+label {
+  margin-right: 5px;
 }
 
 div.race {
@@ -42,6 +52,7 @@ div.race.ongoing {
 
 div.race.complete {
   background-color: #cccccc;
+  display: none;
 }
 
 .race-item {
