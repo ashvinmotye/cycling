@@ -35,7 +35,7 @@ var allRaces = [{
     "country": "GER"
   },
   {
-    "start": "MAY-05 2018",
+    "start": "MAY-04 2018",
     "end": "MAY-27 2018",
     "name": "Giro d'Italia",
     "country": "ITA"
